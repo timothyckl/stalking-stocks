@@ -10,9 +10,9 @@ Notes:
     describe data validation structures.
 
 Classes:
-    TopPerforming: - 
-    TopGrowing: -
-    MarketData: -
+    TopPerforming: Represents dataframe schema for top performing companies. 
+    TopGrowing: Represents dataframe schema for top growth companies.
+    MarketData: Represents dataframe schema for stock data.
 """
 
 from pandera.pandas import DataFrameModel, Field
